@@ -1,0 +1,48 @@
+---
+title: "Homework # 3"
+author: "YourID"
+output:
+  html_document:
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#set.seed("the last four digits of the student ID")
+```
+
+```{r}
+set.seed(6030)
+num <- sample(1:4, 2)
+```
+
+# Question # `r num[1]`
+
+```{r}
+#Plot pressure against temperature, and use the following command to pass a 
+#curve through these data:
+plot(pressure)
+curve( (0.168+0.007*x)^(20/3), from = 0, to = 400, add = TRUE)
+
+#第二題
+new_y<-pressure$pressure^(3/20)
+plot(pressure$temperature,new_y,xlab="temperature"
+     ,ylab="new_pressure",main="New temperature-pressure")
+abline(0.168,0.007)
+# the power transformation is linear
+```
+
+# Question # `r num[2]`
+
+```{r}
+library(HSAUR3)
+dt <- HSAUR3::suicides2
+head(dt)
+names(dt)[c(1:5)] <- c("25-34", "35-44", "45-54", "55-64","65-74")
+row.names <- 1
+data1<-stack(dt)
+head(data1)
+print(data1)
+names(data1)<-c("Counts","AgeGroups")
+boxplot(data1$Counts~data1$AgeGroups,horizontal = TRUE,col=3,xlab="death per 100,000 from male sucides",ylab="age")
+```

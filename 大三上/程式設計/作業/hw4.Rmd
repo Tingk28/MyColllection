@@ -1,0 +1,42 @@
+---
+title: "Homework # Condition adn Loop"
+author: "H14086030"
+output:
+  html_document:
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#set.seed("the last four digits of the student ID")
+```
+
+```{r}
+set.seed(6030)
+num <- sample(1:7, 2)
+```
+
+# Question # `r num[1]`
+
+```{r}
+x<-7 #factorial(x)
+x0<-1
+ans=1
+while(x0<x){
+  x0<-x0+1
+  ans<-ans*x0
+}
+print(ans)
+```
+
+# Question # `r num[2]`
+
+```{r}
+score=95
+if(score<60){cat("F")
+}else if (score<70){cat('D')
+}else if (score<80){cat('C')
+}else if (score<90){cat('B')
+}else{cat('A')
+}
+```

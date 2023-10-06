@@ -1,0 +1,378 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+vkronos_agu
+Z0 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z1 DXx4 work 12 kronos_types 0 22 :O:Y@zNL9;`nRc1gfCWb<3
+VETcK9_PzA[UEdZOBS:BP`1
+r1
+31
+IU>f?L<_JS>CNmUGYKBd^k1
+S1
+Z2 dC:\Users\Ahua\Desktop\co2020\kronos
+w1597635221
+8C:/Users/Ahua/Desktop/co2020/kronos/agu.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/agu.sv
+L0 9
+Z3 OL;L;10.1c;51
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 F^:hQe`_1:;U4FK04Igjj1
+!s105 agu_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/agu.sv|
+!s108 1598439835.349000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/agu.sv|
+!s85 0
+!i10b 1
+vkronos_alu
+Z5 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+R1
+VzA>8jo5;l08TaX5JIab_c3
+r1
+31
+I<e:ZecHHYW?kHRSCRVZRA0
+S1
+R2
+w1597635255
+8C:/Users/Ahua/Desktop/co2020/kronos/alu.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/alu.sv
+L0 28
+R3
+R4
+!s100 Yf0P^hh1NmGKRlOR_IndI3
+!s105 alu_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/alu.sv|
+!s108 1598439835.492000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/alu.sv|
+!s85 0
+!i10b 1
+vkronos_branch
+R5
+R1
+VnI060GmdXz_=eG4oV[QM00
+r1
+31
+IM1fkOfAX:dXg7K27@XTaZ1
+S1
+R2
+w1597635284
+8C:/Users/Ahua/Desktop/co2020/kronos/branch.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/branch.sv
+L0 8
+R3
+R4
+!s100 ?BF1A2U8AgGj4Wo0mf]:f1
+!s105 branch_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/branch.sv|
+!s108 1598439835.630000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/branch.sv|
+!s85 0
+!i10b 1
+vkronos_core
+R5
+R1
+V>`h_f]d=H;6f^AjX:^bab0
+r1
+31
+I]5Rf1_P=?9WVm3NzS=JGE3
+S1
+R2
+w1597635310
+8C:/Users/Ahua/Desktop/co2020/kronos/core.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/core.sv
+L0 9
+R3
+R4
+!s100 n[=4KNI7l:C6hKXVLH<M01
+!s105 core_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/core.sv|
+!s108 1598439835.761000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/core.sv|
+!s85 0
+!i10b 1
+vkronos_counter64
+R5
+V_]Xl[@27oo5;H:IE<MK0F3
+r1
+31
+IT^Y8b9`KfQV<foWXDAGHM1
+S1
+R2
+w1597635343
+8C:/Users/Ahua/Desktop/co2020/kronos/counter64.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/counter64.sv
+L0 11
+R3
+R4
+!s100 51`J]`5X7eYbgiDDU[m]_2
+!s105 counter64_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/counter64.sv|
+!s108 1598439835.888000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/counter64.sv|
+!s85 0
+!i10b 1
+vkronos_csr
+R5
+R1
+V@3]4PQ<i]PKge[0X2YWhj2
+r1
+31
+IoDJ>Ea^f?]Zi`D5nX>]Wd0
+S1
+R2
+w1597635371
+8C:/Users/Ahua/Desktop/co2020/kronos/csr.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/csr.sv
+L0 26
+R3
+R4
+!s100 hGXWEXF4n1R:3ne1VZc^g0
+!s105 csr_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/csr.sv|
+!s108 1598439836.021000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/csr.sv|
+!s85 0
+!i10b 1
+vkronos_EX
+R5
+R1
+VeJ?><fzLfOCc>ARJ5T8>Y3
+r1
+31
+In3`TLZ@[D44aaVC<]IJ?i1
+S1
+R2
+w1597635051
+8C:/Users/Ahua/Desktop/co2020/kronos/EX.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/EX.sv
+L0 8
+R3
+R4
+nkronos_@e@x
+!s100 4QC^S3L]`db<;281X=20=0
+!s105 EX_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/EX.sv|
+!s108 1598439836.200000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/EX.sv|
+!s85 0
+!i10b 1
+vkronos_hcu
+R5
+R1
+Vg=o[l9R2Ae9=Oi:aS^8W]3
+r1
+31
+IQTPNz<fgAON_lPGeXBV;<1
+S1
+R2
+w1597635401
+8C:/Users/Ahua/Desktop/co2020/kronos/hcu.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/hcu.sv
+L0 10
+R3
+R4
+!s100 mEel[GFZzj][7[6@<9Nl52
+!s105 hcu_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/hcu.sv|
+!s108 1598439836.443000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/hcu.sv|
+!s85 0
+!i10b 1
+vkronos_ID
+R5
+R1
+V58N@3>3b5L=43gUiFKJDK2
+r1
+31
+IUKKX9TRMjdLUMO3NfIFOa0
+S1
+R2
+w1597635091
+8C:/Users/Ahua/Desktop/co2020/kronos/ID.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/ID.sv
+L0 14
+R3
+R4
+nkronos_@i@d
+!s100 8ad80>6kDJ7nR^5n;L9mM3
+!s105 ID_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/ID.sv|
+!s108 1598439836.672000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/ID.sv|
+!s85 0
+!i10b 1
+vkronos_IF
+R5
+R1
+VIko:O>G1b;:a4KHFTcoEi3
+r1
+31
+IL@;AUR7XOHNA2]X]Bk>9d0
+S1
+R2
+w1597635127
+8C:/Users/Ahua/Desktop/co2020/kronos/IF.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/IF.sv
+L0 24
+R3
+R4
+nkronos_@i@f
+!s100 kH]>ifUm<][;eBa^8Tm<X0
+!s105 IF_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/IF.sv|
+!s108 1598439836.820000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/IF.sv|
+!s85 0
+!i10b 1
+vkronos_lsu
+R5
+R1
+V4k`UgMa4hfW03`6N=UcdZ2
+r1
+31
+Ih;R>Z9I1=U=7IYbUzN1nS1
+S1
+R2
+w1597635423
+8C:/Users/Ahua/Desktop/co2020/kronos/lsu.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/lsu.sv
+L0 11
+R3
+R4
+!s100 V4?dJ=`g_z4gH>LR_[hKK2
+!s105 lsu_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/lsu.sv|
+!s108 1598439836.974000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/lsu.sv|
+!s85 0
+!i10b 1
+vkronos_RF
+R5
+R1
+V15R1W`Z@3ZTmSkB=Lj>ed0
+r1
+31
+I@UHR<ALJIbF2KOa`S?RSG0
+S1
+R2
+w1598439776
+8C:/Users/Ahua/Desktop/co2020/kronos/RF.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/RF.sv
+L0 11
+R3
+R4
+nkronos_@r@f
+!s100 l4n:J`1ozSI@1=SF4Ebfh2
+!s105 RF_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/RF.sv|
+!s108 1598439837.106000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/RF.sv|
+!s85 0
+!i10b 1
+Xkronos_types
+R5
+V:O:Y@zNL9;`nRc1gfCWb<3
+r1
+31
+I:O:Y@zNL9;`nRc1gfCWb<3
+S1
+R2
+w1597635455
+8C:/Users/Ahua/Desktop/co2020/kronos/types.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/types.sv
+L0 4
+R3
+R4
+!s100 REDcn[?022TZ4NbBD9cL_0
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/types.sv|
+!s108 1598439835.085000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/types.sv|
+!s85 0
+!i10b 1
+vreg00
+R5
+Vgc0SDYDjoJ=HARN==CIY]3
+r1
+31
+Imn[cB2]44;LbnIc8mFLi]0
+S1
+R2
+w1598439831
+8C:/Users/Ahua/Desktop/co2020/kronos/reg00.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/reg00.sv
+L0 1
+R3
+R4
+!s100 X^YDYij6IW5L<[m9Ld6=N2
+!s105 reg00_sv_unit
+!s108 1598439837.546000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/reg00.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/reg00.sv|
+!s85 0
+!i10b 1
+Xrv32_assembler
+R5
+R1
+V5QF>>i=M^R2nIPGg?3SlR3
+r1
+31
+I5QF>>i=M^R2nIPGg?3SlR3
+S1
+R2
+w1597636203
+8C:/Users/Ahua/Desktop/co2020/kronos/rv32_assembler.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/rv32_assembler.sv
+L0 6
+R3
+R4
+!s100 aQ2AzaY@3HhLJG4UcC:nj2
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/rv32_assembler.sv|
+!s108 1598439835.210000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/rv32_assembler.sv|
+!s85 0
+!i10b 1
+vspsram32_model
+R5
+VaJfb8^=4<DLa7C<BMJ5c?3
+r1
+31
+I0US65WUWaEb@CgzNA5fnf1
+S1
+R2
+w1597813347
+8C:/Users/Ahua/Desktop/co2020/kronos/spsram32_model.sv
+FC:/Users/Ahua/Desktop/co2020/kronos/spsram32_model.sv
+L0 6
+R3
+R4
+!s100 VX1ic`P5<D^>EknHU]W:G0
+!s105 spsram32_model_sv_unit
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/kronos/spsram32_model.sv|
+!s108 1598439837.265000
+!s107 C:/Users/Ahua/Desktop/co2020/kronos/spsram32_model.sv|
+!s85 0
+!i10b 1
+vtb_core_ut
+R5
+R1
+DXx4 work 14 rv32_assembler 0 22 5QF>>i=M^R2nIPGg?3SlR3
+VcOb`]f6b^M4=PS7_GXc:10
+r1
+!s85 0
+31
+IlTgB;T?jb`YP[3E>1VRIS0
+S1
+dC:\Users\Ahua\Desktop\co2020\2020_lab1\ISS_LAB2
+w1598335407
+8C:/Users/Ahua/Desktop/co2020/2020_lab1/ISS_LAB2/testbench.sv
+FC:/Users/Ahua/Desktop/co2020/2020_lab1/ISS_LAB2/testbench.sv
+L0 5
+R3
+R4
+!i10b 1
+!s100 IcDg28?RzKKfEA<j:hnim3
+!s105 testbench_sv_unit
+!s108 1598440937.962000
+!s107 C:/Users/Ahua/Desktop/co2020/2020_lab1/ISS_LAB2/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Ahua/Desktop/co2020/2020_lab1/ISS_LAB2/testbench.sv|

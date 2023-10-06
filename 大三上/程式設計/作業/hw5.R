@@ -1,0 +1,137 @@
+#1 
+greet <- function(x="18:00"){
+  hour <- unlist(strsplit(x,":"))
+  h<-strtoi(hour[1])
+  #6:00-11:59 = morning
+  #12:00-17:59 = afternoon
+  #18:00-23:59 0:00-5:59 = evening
+  if (h>=6&&h<12){
+    return("good morning")
+  }else if (h<18&& h>=12){
+    return("good afternoon")
+  }else{
+    return("good evening")
+  }
+}
+greet("12:59")
+
+#2
+Fizzbuzz_1<-function(x){
+  result<-c()
+  for(i in x){
+    if(i%%3==0&&i%%5==0){
+      result<-c(result,"fizzbuzz")
+    }else if(i%%3==0){
+      result<-c(result,"fizz")
+    }else if(i%%5==0){
+      result<-c(result,"buzz")
+    }else{
+      result<-c(result,i)
+    }  
+  }
+  return(result)
+}
+x <- c(1:15)
+Fizzbuzz_1(x)
+#3
+Pois_info <- function(lamba){
+  k<- 0
+  pois <- (exp(-1*lamba)*lamba^k)/factorial(k)
+  mean<-0
+  var <-0
+  while(pois>10^-10||k<20){#為了避免lamba過大導致f(0)小於10^-10不符合while判斷標準導致mean=0
+    mean<- mean+k*pois
+    k<-k+1
+    pois<- (exp(-1*lamba)*(lamba^k))/factorial(k)
+  }
+  k <- 0
+  pois <- (exp(-1*lamba)*lamba^k)/factorial(k)
+  while(pois>10^-10||k<20){
+    var<- var+(k-mean)^2 *pois
+    k<-k+1
+    pois<- (exp(-1*lamba)*(lamba^k))/factorial(k)
+  }
+  return(list(mean=mean,vaiance=var))
+}
+Pois_info(30)
+
+
+#4-1
+Myinfo <- function(x=""){
+  result=c()
+  for (i in unlist(strsplit(x,"/"))){
+    for(j in unlist(strsplit(i,":"))){
+      result=c(result,j)
+    }
+  }
+  result <- matrix(data=result,nrow=3,ncol=2,byrow = TRUE)
+  return(result)
+}
+info='NAME: Lee /COUNTRY:Taiwan /EMAIL: cili@ncku.edu.tw'
+Myinfo(info)
+#4-2
+FindNum <- function(x, location = 1, highest = F){
+  
+  x <- sort(x,decreasing = highest)
+  return(x[location])
+}
+
+x <- c(1:10)
+x
+FindNum(x, location = 2, highest = F)
+
+#5
+Normal_graph <- function(x,upper_tail=T){
+  total <- seq(-3, 3, 0.1)
+  if(upper_tail){
+    col_range<- seq(x, 3, 0.1)
+    header<-paste("Pr(X>",as.character(x),"), X~N(0,1)")
+  }else{
+    col_range<- seq(-3, x, 0.1)
+    header<-paste("Pr(X<",as.character(x),"), X~N(0,1)")
+  }
+  plot(total,dnorm(total,mean=0,sd=1),from=-3,to=3,col="black",type="l",ylab="f(x)",xlab="x",main=header)
+  polygon(c(col_range,rev(col_range)),c(dnorm(col_range,mean=0,sd=1),rep(0,length(col_range))),col="green",border ="green" )
+}
+Normal_graph(x=-2.5,upper_tail=F)
+#6
+Jumps <- function(sd = 1){
+  price<-c(100)
+  count <- 0
+  while (price[length(price)]>50&&price[length(price)]<150){
+    count <- count+1
+    delta <- rnorm(1,mean=0,sd=sd)
+    price <- c(price,price[length(price)]+delta) 
+  }
+  count
+  header <- paste("the number of jumps:",as.character(count))
+  plot(price,xlab="Period",ylab="Price",main=header,col="blue",ylim=c(50,150))
+  abline(h=50,col="red")
+  abline(h=150,col="red")
+  abline(h=100,lty=2)
+}
+
+Jumps(sd = 0.5)
+
+
+#7
+fx<- function(x){x^3+2*x^2-7}
+fx_prime<-function(x){3*x^2+4*x}
+
+
+Newton_method <- function(fx,fx_prime,tor=10^-8,x0=0.1){
+  point<- c(x0)
+  equ<- c()
+  iter<-0
+  while (abs(fx(x0))>tor){
+    x0<- x0-fx(x0)/fx_prime(x0)
+    point<-c(point,x0)
+    iter<-iter+1
+  }
+  print(equ)
+  plot(point,type='l',main="Plot of iteration",xlab="times",ylab="x0")
+  curve(expr = x^3+2*x^2-7,main="f(x)",from=-2,to=2)
+  return(x0)
+}
+
+Newton_method(fx,fx_prime)

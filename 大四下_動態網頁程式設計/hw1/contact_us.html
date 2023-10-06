@@ -1,0 +1,98 @@
+<!--
+H14086030 郭庭維 第一次作業 3/17
+H14086030 TingWeiKuo The First Homework 3/17 
+This template is only for development only
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>成功大學會計學系</title>
+    </head>
+    
+    <body>
+        <iframe src="banner.html" width="1070" height="150" style="border:none"></iframe>
+        <div style="padding-left: 5%;" >
+            <h1>聯絡我們</h1>
+            
+            <p>若您有任何問題，請留下您的資料，我們會儘快回覆您</p>
+            <form action="" method="post" autocomplete="on" >
+               <p>
+                  <label>姓名：
+                      <input type = "text" placeholder = "王小明" autofocus required />
+                     </label>
+                </p>
+                <p>
+                  <label>Email：
+                      <input type = "email" placeholder = "name@domain.com" 
+                      required /> (name@domain.com)
+                     </label>
+                </p>
+                <p>
+                  <label>Tel：
+                      <input type = "tel" placeholder = "0912-345-678" 
+                          pattern = "09\d{2}-\d{3}-\d{3}" required /> 
+                          0912-345-678
+                  </label>
+               </p>
+                 <p>
+                    <label>發生日期：
+                       <input type = "date" placeholder="2023-01-01"/> 
+                          (yyyy-mm-dd)
+                    </label>
+                 </p>
+                 <p>
+                    <label>發生時間：
+                       <input type = "time" /> (12小時制 hh:mm)
+                    </label>
+                 </p>
+                  <p>
+                    <label>身分別：
+                    <select id = 'id'>
+                        <option >學生</option>
+                        <option >教師</option>
+                        <option >畢業生</option>
+                        <option >訪客</option>
+                    </select>
+                  </label>
+                  </p>
+                  <p>
+                    <label>學生年級：
+                       <input type = "number" 
+                          min = "1"
+                          max = "6"
+                          step = "1"
+                          value = "" />
+                    </label> (學生請輸入1-6年級)
+                  </p>
+                  <p>
+                    <label>急迫程度：
+                       非常不緊急 <input type = "range" 
+                          min = "0"
+                          max = "20"
+                          value = "10" /> 非常緊急
+                    </label>
+                  </p>
+                  <p><label>想說的話：</label></p>                 
+                    <textarea cols="100" rows="10" placeholder=>請輸入您的問題</textarea>
+                  <p>
+                    <label>相關網址：
+                       <input type = "url" 
+                          placeholder = "http://www.domainname.com" /> 
+                          (http://www.domainname.com)
+                    </label>
+                  </p>
+                  <label > 當前訊息量（低）</label>
+                  <meter id="loading" value="2" min="0" max="10">2 out of 10</meter><br>
+                 <p>
+                    <input type = "submit" value = "Submit" />
+                    <input type = "reset" value = "Clear" />
+                  </p>
+                  
+            </form>
+        </div>
+        
+        <br><br>
+        <iframe src="bottom.html" width="1070" height="140" style="border:none"></iframe>
+    </body>
+
+</html>

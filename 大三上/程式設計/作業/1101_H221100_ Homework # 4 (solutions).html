@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743 -->
+<html dir="ltr" lang="zh-tw" xml:lang="zh-tw" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>1101_H221100: Homework # 4 (solutions)</title>
+    <link rel="shortcut icon" href="https://moodle.ncku.edu.tw/theme/image.php/fordson/theme/1634308035/favicon">
+    
+<meta name="keywords" content="moodle, 1101_H221100: Homework # 4 (solutions)">
+<link rel="stylesheet" type="text/css" href="./1101_H221100_ Homework # 4 (solutions)_files/combo"><script async="" src="./1101_H221100_ Homework # 4 (solutions)_files/analytics.js.下載"></script><script charset="utf-8" id="yui_3_17_2_1_1636459600228_9" src="./1101_H221100_ Homework # 4 (solutions)_files/combo(1)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1636459600228_24" src="./1101_H221100_ Homework # 4 (solutions)_files/combo(2)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1636459600228_30" src="./1101_H221100_ Homework # 4 (solutions)_files/combo(3)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./1101_H221100_ Homework # 4 (solutions)_files/styles.php">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.ncku.edu.tw","sesskey":"g3lYZePruJ","sessiontimeout":"7200","themerev":"1634308035","slasharguments":1,"theme":"fordson","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1634308036","admin":"admin","svgicons":true,"usertimezone":"Asia\/Taipei","contextid":868406,"langrev":1634786304,"templaterev":"1634308036"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.ncku.edu.tw\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.ncku.edu.tw\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.ncku.edu.tw\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.ncku.edu.tw\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.ncku.edu.tw\/theme\/yui_combo.php?m\/1634308036\/","combine":true,"comboBase":"https:\/\/moodle.ncku.edu.tw\/theme\/yui_combo.php?","ext":false,"root":"m\/1634308036\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.ncku.edu.tw\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.ncku.edu.tw\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1634308036\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.ncku.edu.tw\/lib\/javascript.php\/1634308036\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.ncku.edu.tw\/lib\/javascript.php\/1634308036\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/moodle.ncku.edu.tw\/lib\/MathJax-2.7.6\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script><style type="text/css">
+:root .btn[href*="/viphktv.com/"],
+:root .btn[href*=".xxmh779.com/"],
+:root .btn[href*=".papa9394.com"],
+:root .container > a.mid-wrapper,
+:root .container > a[href^="http"] > .ads,
+:root .container > .ads,
+:root .footer > #box[style="width:100%;height:100%;position:fixed;top:0"],
+:root .content > a > .topline,
+:root .right > .content > .ads,
+:root .main[style="border:#7D8C8E solid 1px;height: 23px;"],
+:root .tooltip > #tp
+{ display: none !important; }</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style shopback-extension-v6-6-11="" data-styled-version="4.2.0"></style><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./1101_H221100_ Homework # 4 (solutions)_files/requirejs.php"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript.php"></script></head>
+<body id="page-mod-resource-view" class="format-topics path-mod path-mod-resource chrome dir-ltr lang-zh_tw yui-skin-sam yui3-skin-sam moodle-ncku-edu-tw pagelayout-incourse course-17185 context-868406 cmid-377743 category-2709 drawer-open-left jsenabled">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#maincontent">跳到主要內容</a>
+</div><script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(1).php"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(2).php"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/combo(4)"></script><script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/jquery-3.4.1.min.js.下載"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(3).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-fhs   navbar-expand moodle-has-zindex">
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">側板</span></button>
+            </div>
+            <a href="https://moodle.ncku.edu.tw/" class="navbar-brand 
+                    d-none d-sm-inline
+                    ">
+                <span class="site-name d-none d-md-inline">NCKU Moodle</span>
+            </a>
+            
+            <!-- course_controls -->
+            <div class="coursecontrols nav-item d-flex">
+                <div class="studentdash nav-item nav-link">
+        <a role="button" data-tooltip="tooltip" data-placement="bottom" title="" data-toggle="modal" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#studentdashslider" class="btn btn-secondary fhs-tooltip" data-original-title="課程儀表板"><i class="fa fa-cogs" aria-hidden="true"></i></a>
+    </div>
+                
+            </div>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-618a64517f3dc618a645128e105" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" aria-controls="drop-down-menu-618a64517f3dc618a645128e105">
+        正體中文 ‎(zh_tw)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-618a64517f3dc618a645128e105" aria-labelledby="drop-down-618a64517f3dc618a645128e105">
+                <a class="dropdown-item" role="menuitem" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=zh_cn" title="简体中文 ‎(zh_cn)‎">简体中文 ‎(zh_cn)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=ja" title="日本語 ‎(ja)‎">日本語 ‎(ja)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=zh_tw" title="正體中文 ‎(zh_tw)‎">正體中文 ‎(zh_tw)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <div class="d-none d-lg-block">
+                <div class="search-input-wrapper nav-link" id="618a64517f420"><div role="button" tabindex="0"><i class="icon fa fa-search fa-fw " title="搜尋" aria-label="搜尋"></i></div><form class="search-input-form" action="https://moodle.ncku.edu.tw/search/index.php"><label for="id_q_618a64517f420" class="accesshide">請輸入您的查詢條件</label><input type="text" name="q" placeholder="搜尋" size="13" tabindex="-1" id="id_q_618a64517f420" class="form-control"><input type="hidden" name="context" value="868406"></form></div>
+            </div>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                <div class="float-right popover-region collapsed">
+    <a id="message-drawer-toggle-618a645181240618a645128e106" class="nav-link d-inline-block popover-region-toggle position-relative" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" role="button">
+        <i class="icon fa fa-comment fa-fw " title="切換訊息選單" aria-label="切換訊息選單"></i>
+        <div class="count-container hidden" data-region="count-container" aria-label="有0個未讀對話">0</div>
+    </a>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="146233" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" role="button" aria-controls="popover-region-container-618a645184776618a645128e107" aria-haspopup="true" aria-label="顯示不含新通知的通知視窗" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " title="切換通知選單" aria-label="切換通知選單"></i>
+        <div class="count-container " data-region="count-container" aria-label="有75則未讀通知">75</div>
+
+    </div>
+    <div id="popover-region-container-618a645184776618a645128e107" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="通知視窗" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">通知</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" title="把全部標示為已讀" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " title="把全部標示為已讀" aria-label="把全部標示為已讀"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+        </a>
+        <a href="https://moodle.ncku.edu.tw/message/notificationpreferences.php?userid=146233" title="通知提醒的偏好">
+            <i class="icon fa fa-cog fa-fw " title="通知提醒的偏好" aria-label="通知提醒的偏好"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">你沒有收到通知</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+        </div>
+                <a class="see-all-link" href="https://moodle.ncku.edu.tw/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">查看全部</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="用戶選單" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1"> 郭庭維</span><span class="avatars"><span class="avatar current"><img src="./1101_H221100_ Homework # 4 (solutions)_files/f2.png" class="userpicture defaultuserpic" width="35" height="35" role="presentation" aria-hidden="true"></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://moodle.ncku.edu.tw/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                個人化首頁
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://moodle.ncku.edu.tw/user/profile.php?id=146233" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                簡歷
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.ncku.edu.tw/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                成績
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.ncku.edu.tw/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-comment fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                訊息
+                                            </span>
+                                        </a>
+                                        <a href="https://moodle.ncku.edu.tw/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                偏好
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://moodle.ncku.edu.tw/login/logout.php?sesskey=g3lYZePruJ" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                登出
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+
+
+    <div id="page" class="container-fluid">
+        
+        <div id="learningcontent">
+        
+            <div class="modal fade" id="studentdashslider" tabindex="-1" role="dialog" aria-labelledby="teacherdashslider" aria-hidden="true">
+<div class="modal-dialog" role="document">
+
+    <div class="modal-content">
+    <div class="modal-body">
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+        <div class="studentdashboard">
+        <div class="container-fluid">
+            <div class="row">
+
+                    <div class="col-md-2 studentgradebook">
+                        <p>My Grades</p><a href="https://moodle.ncku.edu.tw/grade/report/user/index.php?id=17185" alt="My Grades"><i class="fa fa-5x fa-bar-chart"></i></a>
+                    </div>
+
+                    
+                </div>
+
+            <div class="row">
+                    <div class="col-md-4 coursesummary">
+                        <div class="dashtitle">
+                            <h3><i class="fa fa-map">&nbsp;</i>課程摘要</h3>
+                        </div>
+                            <div class="card-block">
+                                    <div class="text_to_html">課程大綱(Course Outline)</div>
+                            </div>
+                    </div>
+
+                    <div class="col-md-5 coursestafflisting">
+                        <div class="dashtitle">
+                            <h3><i class="fa fa-users">&nbsp;</i>授課老師</h3>
+                        </div>
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <div class="staffmember">
+                                        <a href="https://moodle.ncku.edu.tw/user/view.php?id=22&amp;course=17185"><img src="./1101_H221100_ Homework # 4 (solutions)_files/f1.png" class="userpicture defaultuserpic" width="50" height="50" alt=" 李俊毅的相片" title=" 李俊毅的相片"></a>
+                                        <div class="staffinfo">
+                                            <h4>李俊毅  </h4>
+                                            <p><a href="mailto:cili@mail.ncku.edu.tw"><i class="fa fa-envelope-o">&nbsp;</i>電子郵件信箱</a> <br> <a href="https://moodle.ncku.edu.tw/message/index.php?id=22"><i class="fa fa-comment">&nbsp;</i>傳送訊息</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 activitylinks">
+                        <div class="dashtitle">
+                            <h3><i class="fa fa-check-square-o dashicon"></i>課程活動</h3>     
+                        </div>
+                        <div class="list-group">
+                            <div class="list-group" aria-labelledby="list-group-618a645190110618a645128e1016">
+        <a href="https://moodle.ncku.edu.tw/mod/attendance/index.php?id=17185" class="list-group-item">出缺席</a>
+        <a href="https://moodle.ncku.edu.tw/mod/choicegroup/index.php?id=17185" class="list-group-item">票選/自願分組</a>
+        <a href="https://moodle.ncku.edu.tw/mod/forum/index.php?id=17185" class="list-group-item">討論區</a>
+        <a href="https://moodle.ncku.edu.tw/mod/questionnaire/index.php?id=17185" class="list-group-item">問卷</a>
+        <a href="https://moodle.ncku.edu.tw/course/resources.php?id=17185" class="list-group-item">資源</a>
+        <a href="https://moodle.ncku.edu.tw/mod/assign/index.php?id=17185" class="list-group-item">作業</a>
+ </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 studentprogress">
+                    My Progress 
+                    <div class="progress border w-100">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" style="width: 0%" aria-valuemin="0" aria-valuemax="100"> 
+    	<div class="small">
+		    <span class="sr-only">課程進度：</span>
+		    <strong>0% Complete </strong>
+		</div>
+    </div>
+</div>
+                </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+</div>
+</div>
+
+<div style="clear:both;"></div>
+            <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+                <div class="headerbkg"><div class="customimage" style="background-image: url(&quot;//moodle.ncku.edu.tw/pluginfile.php/1/theme_fordson/headerdefaultimage/1634308035/headerbg_moodle_5.png&quot;); background-size: cover; background-position:center;
+                width: 100%; height: 100%;"></div></div>
+            <div class="card-body ">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                        <a href="https://moodle.ncku.edu.tw/course/view.php?id=17185"><div class="page-context-header"><div class="page-header-headings"><h2>1101_程式設計 PROGRAMMING LANGUAGE</h2></div></div></a>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav role="navigation" aria-label="網頁導覽">
+    <ul class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.ncku.edu.tw/">首頁</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.ncku.edu.tw/course/index.php">課程</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.ncku.edu.tw/course/view.php?id=17185" title="1101_程式設計 PROGRAMMING LANGUAGE">1101_H221100</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-7">主題 7</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743" aria-current="page" title="檔案">Homework # 4 (solutions)</a>
+                </li>
+    </ul>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+            
+            <div id="page-content" class="row pb-3">
+                <div id="region-main-box" class="col-12">
+                    <section id="region-main">
+
+                                
+                                <span class="notifications" id="user-notifications"></span>
+                                <div role="main"><span id="maincontent"></span><h2>Homework # 4 (solutions)</h2><div class="resourcecontent resourcegeneral">
+  <iframe id="resourceobject" src="./1101_H221100_ Homework # 4 (solutions)_files/exercise_solutions.html" style="width: 2102px; height: 845px;">
+    點選 <a href="https://moodle.ncku.edu.tw/pluginfile.php/868406/mod_resource/content/1/exercise_solutions.html" >exercise_solutions.html</a>鏈結來檢視這檔案。
+  </iframe>
+</div></div>
+                                
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="drawer-618a64519b812618a645128e1017" class=" drawer bg-white hidden" aria-expanded="false" aria-hidden="true" data-region="right-hand-drawer" role="region" tabindex="-1">
+            <div id="message-drawer-618a64519b812618a645128e1017" class="message-app" data-region="message-drawer" role="region">
+            <div class="header-container position-relative" data-region="header-container">
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-contacts">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex align-items-center mr-2" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route-back="" role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            通訊錄
+                        </div>
+                        <div class="ml-auto">
+                            <a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route="view-search" role="button" aria-label="搜尋">
+                                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden bg-white position-relative border-bottom px-2 py-2" aria-hidden="true" data-region="view-conversation">
+                    <div class="hidden" data-region="header-content"></div>
+                    <div class="hidden" data-region="header-edit-mode">
+                        
+                        <div class="d-flex p-2 align-items-center">
+                            已選擇的訊息：
+                            <span class="ml-1" data-region="message-selected-court">1</span>
+                            <button type="button" class="ml-auto close" aria-label="取消訊息選擇" data-action="cancel-edit-mode">
+                                    <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div data-region="header-placeholder">
+                        <div class="d-flex">
+                            <div class="ml-2 rounded-circle bg-pulse-grey align-self-center" style="height: 38px; width: 38px">
+                            </div>
+                            <div class="ml-2 " style="flex: 1">
+                                <div class="mt-1 bg-pulse-grey w-75" style="height: 16px;">
+                                </div>
+                            </div>
+                            <div class="ml-2 bg-pulse-grey align-self-center" style="height: 16px; width: 20px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; bottom: -1px; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+                </div>                <div class="border-bottom px-2 py-3" aria-hidden="false" data-region="view-overview">
+                    <div class="d-flex align-items-center">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text pr-0 bg-white">
+                                    <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control border-left-0" placeholder="搜尋" aria-label="搜尋" data-region="view-overview-search-input">
+                        </div>
+                        <div class="ml-2">
+                            <a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route="view-settings" data-route-param="146233" aria-label="設定" role="button">
+                                <i class="icon fa fa-cog fa-fw " aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-right mt-3">
+                        <a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route="view-contacts" role="button">
+                            <i class="icon fa fa-user fa-fw " aria-hidden="true"></i>
+                            通訊錄
+                            <span class="badge bg-primary ml-2 hidden" data-region="contact-request-count" aria-label="有0個待處理的聯絡請求">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hidden border-bottom px-2 py-3 view-search" aria-hidden="true" data-region="view-search">
+                    <div class="d-flex align-items-center">
+                        <a class="mr-2 align-self-stretch d-flex align-items-center" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route-back="" data-action="cancel-search" role="button">
+                            <div class="icon-back-in-drawer">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                            </div>
+                            <div class="icon-back-in-app">
+                                <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                            </div>                        </a>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="搜尋" aria-label="搜尋" data-region="search-input">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" data-action="search" aria-label="搜尋">
+                                    <span data-region="search-icon-container">
+                                        <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                                    </span>
+                                    <span class="hidden" data-region="loading-icon-container">
+                                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="hidden border-bottom px-2 py-3" aria-hidden="true" data-region="view-settings">
+                    <div class="d-flex align-items-center">
+                        <div class="align-self-stretch">
+                            <a class="h-100 d-flex mr-2 align-items-center" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" data-route-back="" role="button">
+                                <div class="icon-back-in-drawer">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true"></i></span>
+                                    <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true"></i></span>
+                                </div>
+                                <div class="icon-back-in-app">
+                                    <span class="dir-rtl-hide"><i class="icon fa fa-times fa-fw " aria-hidden="true"></i></span>
+                                </div>                            </a>
+                        </div>
+                        <div>
+                            設定
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-container position-relative" data-region="body-container">
+                
+                <div class="hidden" data-region="view-contact" aria-hidden="true">
+                    <div class="p-2 pt-3" data-region="content-container"></div>
+                </div>                <div class="hidden h-100" data-region="view-contacts" aria-hidden="true" data-user-id="146233">
+                    <div class="d-flex flex-column h-100">
+                        <div class="p-3 border-bottom">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a id="contacts-tab-618a64519b812618a645128e1017" class="nav-link active" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#contacts-tab-panel-618a64519b812618a645128e1017" data-toggle="tab" data-action="show-contacts-section" role="tab" aria-controls="contacts-tab-panel-618a64519b812618a645128e1017" aria-selected="true">
+                                        通訊錄
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="requests-tab-618a64519b812618a645128e1017" class="nav-link" href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#requests-tab-panel-618a64519b812618a645128e1017" data-toggle="tab" data-action="show-requests-section" role="tab" aria-controls="requests-tab-panel-618a64519b812618a645128e1017" aria-selected="false">
+                                        請求
+                                        <span class="badge bg-primary ml-2 hidden" data-region="contact-request-count" aria-label="有0個待處理的聯絡請求">
+                                            0
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content d-flex flex-column h-100">
+                                            <div class="tab-pane fade show active h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="146233" id="contacts-tab-panel-618a64519b812618a645128e1017" data-section="contacts" role="tabpanel" aria-labelledby="contacts-tab-618a64519b812618a645128e1017">
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        沒有通訊錄
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                    </div>
+                </div>
+                
+                                            <div class="tab-pane fade h-100 lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="146233" id="requests-tab-panel-618a64519b812618a645128e1017" data-section="requests" role="tabpanel" aria-labelledby="requests-tab-618a64519b812618a645128e1017">
+                    
+                    <div class="hidden text-center p-2" data-region="empty-message-container">
+                        沒有通訊聯絡的請求
+                    </div>
+                    <div class="hidden list-group" data-region="content-container">
+                        
+                    </div>
+                    <div class="list-group" data-region="placeholder-container">
+                        
+                    </div>
+                    <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                        <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="view-conversation hidden h-100" aria-hidden="true" data-region="view-conversation" data-user-id="146233" data-midnight="1636387200" data-message-poll-min="10" data-message-poll-max="120" data-message-poll-after-max="300" style="overflow-y: auto; overflow-x: hidden">
+                    <div class="position-relative h-100" data-region="content-container" style="overflow-y: auto; overflow-x: hidden">
+                        <div class="content-message-container hidden h-100 px-2 pt-0" data-region="content-message-container" role="log" style="overflow-y: auto; overflow-x: hidden">
+                            <div class="py-3 sticky-top z-index-1 border-bottom text-center hidden" data-region="contact-request-sent-message-container">
+                                <p class="m-0">已發送通訊聯絡請求</p>
+                                <p class="font-italic font-weight-light" data-region="text"></p>
+                            </div>
+                            <div class="p-3 text-center hidden" data-region="self-conversation-message-container">
+                                <p class="m-0">個人空間</p>
+                                <p class="font-italic font-weight-light" data-region="text">儲存訊息草稿、連結、備註等，以便日後存取。</p>
+                           </div>
+                            <div class="hidden text-center p-3" data-region="more-messages-loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</div>
+                        </div>
+                        <div class="p-4 w-100 h-100 hidden position-absolute" data-region="confirm-dialogue-container" style="top: 0; background: rgba(0,0,0,0.3);">
+                            
+                            <div class="p-3 bg-white" data-region="confirm-dialogue" role="alert">
+                                <h3 class="h6 hidden" data-region="dialogue-header"></h3>
+                                <p class="text-muted" data-region="dialogue-text"></p>
+                                <div class="mb-2 custom-control custom-checkbox hidden" data-region="delete-messages-for-all-users-toggle-container">
+                                    <input type="checkbox" class="custom-control-input" id="delete-messages-for-all-users" data-region="delete-messages-for-all-users-toggle">
+                                    <label class="custom-control-label text-muted" for="delete-messages-for-all-users">
+                                        為我和其他人刪除
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-block">
+                                    <span data-region="dialogue-button-text">封鎖</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-unblock">
+                                    <span data-region="dialogue-button-text">解除封鎖</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-remove-contact">
+                                    <span data-region="dialogue-button-text">移除</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-add-contact">
+                                    <span data-region="dialogue-button-text">新增</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-selected-messages">
+                                    <span data-region="dialogue-button-text">刪除</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="confirm-delete-conversation">
+                                    <span data-region="dialogue-button-text">刪除</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="request-add-contact">
+                                    <span data-region="dialogue-button-text">發送聯絡請求</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block hidden" data-action="accept-contact-request">
+                                    <span data-region="dialogue-button-text">接受並加入通訊錄</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-block hidden" data-action="decline-contact-request">
+                                    <span data-region="dialogue-button-text">拒絕</span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-block" data-action="okay-confirm">好</button>
+                                <button type="button" class="btn btn-secondary btn-block" data-action="cancel-confirm">取消</button>
+                            </div>
+                        </div>
+                        <div class="px-2 pb-2 pt-0" data-region="content-placeholder">
+                            <div class="h-100 d-flex flex-column">
+                                <div class="px-2 pb-2 pt-0 bg-light h-100" style="overflow-y: auto">
+                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                    <div class="mt-4">
+                                        <div class="mb-4">
+                                            <div class="mx-auto bg-white" style="height: 25px; width: 100px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                        <div class="d-flex flex-column p-2 bg-white rounded mb-2">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="mr-2">
+                                                    <div class="rounded-circle bg-pulse-grey" style="height: 35px; width: 35px"></div>
+                                                </div>
+                                                <div class="mr-4 w-75 bg-pulse-grey" style="height: 16px"></div>
+                                                <div class="ml-auto bg-pulse-grey" style="width: 35px; height: 16px"></div>
+                                            </div>
+                                            <div class="bg-pulse-grey w-100" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-100 mt-2" style="height: 16px"></div>
+                                            <div class="bg-pulse-grey w-75 mt-2" style="height: 16px"></div>
+                                        </div>
+                                    </div>                                </div>
+                            </div>                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden" aria-hidden="true" data-region="view-group-info">
+                    <div class="pt-3 h-100 d-flex flex-column" data-region="group-info-content-container" style="overflow-y: auto"></div>
+                </div>                <div class="h-100 view-overview-body" aria-hidden="false" data-region="view-overview" data-user-id="146233">
+                    <div id="message-drawer-view-overview-container-618a64519b812618a645128e1017" class="d-flex flex-column h-100" style="overflow-y: auto">
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-favourites">
+                                <div id="view-overview-favourites-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-favourites-target-618a64519b812618a645128e1017" aria-expanded="false" aria-controls="view-overview-favourites-target-618a64519b812618a645128e1017">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">星號標記</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label="共個對話">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="146233" id="view-overview-favourites-target-618a64519b812618a645128e1017" aria-labelledby="view-overview-favourites-toggle" data-parent="#message-drawer-view-overview-container-618a64519b812618a645128e1017">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">未加星號的對話</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-group-messages">
+                                <div id="view-overview-group-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-group-messages-target-618a64519b812618a645128e1017" aria-expanded="false" aria-controls="view-overview-group-messages-target-618a64519b812618a645128e1017">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">群組</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label="共個對話">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="146233" id="view-overview-group-messages-target-618a64519b812618a645128e1017" aria-labelledby="view-overview-group-messages-toggle" data-parent="#message-drawer-view-overview-container-618a64519b812618a645128e1017">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">沒有群組對話</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                            <div class="section border-0 card" data-region="view-overview-messages">
+                                <div id="view-overview-messages-toggle" class="card-header p-0" data-region="toggle">
+                                    <button class="btn btn-link w-100 text-left p-2 d-flex align-items-center overview-section-toggle collapsed" data-toggle="collapse" data-target="#view-overview-messages-target-618a64519b812618a645128e1017" aria-expanded="false" aria-controls="view-overview-messages-target-618a64519b812618a645128e1017">
+                                        <span class="collapsed-icon-container">
+                                            <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="expanded-icon-container">
+                                            <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                        <span class="font-weight-bold">私人</span>
+                                        <small class="hidden ml-1" data-region="section-total-count-container" aria-label="共個對話">
+                                            (<span data-region="section-total-count"></span>)
+                                        </small>
+                                        <span class="hidden ml-2" data-region="loading-icon-container">
+                                            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                        </span>
+                                        <span class="hidden badge badge-pill badge-primary ml-auto bg-primary" data-region="section-unread-count">
+                                            
+                                        </span>
+                                    </button>
+                                </div>
+                                                            <div class="collapse border-bottom  lazy-load-list" aria-live="polite" data-region="lazy-load-list" data-user-id="146233" id="view-overview-messages-target-618a64519b812618a645128e1017" aria-labelledby="view-overview-messages-toggle" data-parent="#message-drawer-view-overview-container-618a64519b812618a645128e1017">
+                                
+                                <div class="hidden text-center p-2" data-region="empty-message-container">
+                                            <p class="text-muted mt-2">沒有私人對話</p>
+
+                                </div>
+                                <div class="hidden list-group" data-region="content-container">
+                                    
+                                </div>
+                                <div class="list-group" data-region="placeholder-container">
+                                            <div class="text-center py-2"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</div>
+
+                                </div>
+                                <div class="w-100 text-center p-3 hidden" data-region="loading-icon-container">
+                                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div data-region="view-search" aria-hidden="true" class="h-100 hidden" data-user-id="146233" data-users-offset="0" data-messages-offset="0" style="overflow-y: auto">
+                    <div class="hidden" data-region="search-results-container" style="overflow-y: auto">
+                        
+                        <div class="d-flex flex-column">
+                            <div class="mb-3 bg-white" data-region="all-contacts-container">
+                                <div data-region="contacts-container" class="pt-2">
+                                    <h4 class="h6 px-2">通訊錄</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div data-region="non-contacts-container" class="pt-2 border-top">
+                                    <h4 class="h6 px-2">不在通訊錄</h4>
+                                    <div class="list-group" data-region="list"></div>
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-users">
+                                        <span data-region="button-text">顯示更多</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="bg-white" data-region="messages-container">
+                                <h4 class="h6 px-2 pt-2">訊息</h4>
+                                <div class="list-group" data-region="list"></div>
+                                <div class="text-right">
+                                    <button class="btn btn-link text-primary" data-action="load-more-messages">
+                                        <span data-region="button-text">顯示更多</span>
+                                        <span data-region="loading-icon-container" class="hidden"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="hidden p-3 text-center" data-region="no-results-container">沒有結果</p>
+                        </div>                    </div>
+                    <div class="hidden" data-region="loading-placeholder">
+                        <div class="text-center pt-3 icon-size-4"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</div>
+                    </div>
+                    <div class="p-3 text-center" data-region="empty-message-container">
+                        <p>搜尋人員和訊息</p>
+                    </div>
+                </div>                
+                <div class="h-100 hidden bg-white" aria-hidden="true" data-region="view-settings">
+                    <div class="hidden" data-region="content-container">
+                        
+                        <div data-region="settings" class="p-3">
+                            <h3 class="h6 font-weight-bold">隱私</h3>
+                            <p>您可以限制誰能發送訊息給您</p>
+                            <div data-preference="blocknoncontacts" class="mb-3">
+                                    <div class="custom-control custom-radio mb-2">
+                                        <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-618a64519b812618a645128e1017-1" value="1">
+                                        <label class="custom-control-label ml-2" for="block-noncontacts-618a64519b812618a645128e1017-1">
+                                            限通訊錄內
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mb-2">
+                                        <input type="radio" name="message_blocknoncontacts" class="custom-control-input" id="block-noncontacts-618a64519b812618a645128e1017-0" value="0">
+                                        <label class="custom-control-label ml-2" for="block-noncontacts-618a64519b812618a645128e1017-0">
+                                            我的通訊錄和我的課程中所有人
+                                        </label>
+                                    </div>
+                            </div>
+                        
+                            <div class="hidden" data-region="notification-preference-container">
+                                <h3 class="mb-2 mt-4 h6 font-weight-bold">通知提醒的偏好</h3>
+                            </div>
+                        
+                            <h3 class="mb-2 mt-4 h6 font-weight-bold">一般</h3>
+                            <div data-preference="entertosend">
+                                <span class="switch">
+                                    <input type="checkbox" id="enter-to-send-618a64519b812618a645128e1017" checked="">
+                                    <label for="enter-to-send-618a64519b812618a645128e1017">
+                                        使用輸入鍵發送
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-region="placeholder-container">
+                        
+                        <div class="d-flex flex-column p-3">
+                            <div class="w-25 bg-pulse-grey h6" style="height: 18px"></div>
+                            <div class="w-75 bg-pulse-grey mb-4" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-3">
+                                    <div class="bg-pulse-grey rounded-circle" style="width: 18px; height: 18px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-50 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-4">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-25 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                            <div class="w-25 bg-pulse-grey h6 mb-3 mt-2" style="height: 18px"></div>
+                            <div class="mb-3">
+                                <div class="w-100 d-flex mb-2 align-items-center">
+                                    <div class="bg-pulse-grey w-25" style="width: 18px; height: 27px"></div>
+                                    <div class="bg-pulse-grey w-50 ml-2" style="height: 18px"></div>
+                                </div>
+                            </div>
+                        </div>                    </div>
+                </div>            </div>
+            <div class="footer-container position-relative" data-region="footer-container">
+                
+                <div class="hidden border-top bg-white position-relative" aria-hidden="true" data-region="view-conversation" data-enter-to-send="1">
+                    <div class="hidden p-2" data-region="content-messages-footer-container">
+                        
+                            <div class="emoji-auto-complete-container w-100 hidden" data-region="emoji-auto-complete-container" aria-live="polite" aria-hidden="true">
+                            </div>
+                        <div class="d-flex mt-1">
+                            <textarea dir="auto" data-region="send-message-txt" class="form-control bg-light" rows="3" data-auto-rows="" data-min-rows="3" data-max-rows="5" role="textbox" aria-label="撰寫一訊息…" placeholder="撰寫一訊息…" style="resize: none" maxlength="4096"></textarea>
+                        
+                            <div class="position-relative d-flex flex-column">
+                                    <div data-region="emoji-picker-container" class="emoji-picker-container hidden" aria-hidden="true">
+                                        
+                                        <div data-region="emoji-picker" class="card shadow emoji-picker">
+                                            <div class="card-header px-1 pt-1 pb-0 d-flex justify-content-between flex-shrink-0">
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button selected" data-action="show-category" data-category="Recent" title="現代">
+                                                    <i class="icon fa fa-clock-o fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Smileys &amp; People" title="笑臉和人">
+                                                    <i class="icon fa fa-smile-o fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Animals &amp; Nature" title="動物與自然">
+                                                    <i class="icon fa fa-leaf fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Food &amp; Drink" title="食物和飲料">
+                                                    <i class="icon fa fa-cutlery fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Travel &amp; Places" title="旅行和地點">
+                                                    <i class="icon fa fa-plane fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Activities" title="活動">
+                                                    <i class="icon fa fa-futbol-o fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Objects" title="物件">
+                                                    <i class="icon fa fa-lightbulb-o fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Symbols" title="符號">
+                                                    <i class="icon fa fa-heart fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                                <button class="btn btn-outline-secondary icon-no-margin category-button" data-action="show-category" data-category="Flags" title="標誌">
+                                                    <i class="icon fa fa-flag fa-fw " aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="card-body p-2 d-flex flex-column overflow-hidden">
+                                                <div class="input-group mb-1 flex-shrink-0">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text pr-0 bg-white text-muted">
+                                                            <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control border-left-0" placeholder="搜尋" aria-label="搜尋" data-region="search-input">
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto emojis-container h-100" data-region="emojis-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                                <div class="flex-grow-1 overflow-auto search-results-container h-100 hidden" data-region="search-results-container">
+                                                    <div class="position-relative" data-region="row-container"></div>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer d-flex flex-shrink-0" data-region="footer">
+                                                <div class="emoji-preview" data-region="emoji-preview"></div>
+                                                <div data-region="emoji-short-name" class="emoji-short-name text-muted text-wrap ml-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-link btn-icon icon-size-3 ml-1" data-action="toggle-emoji-picker">
+                                        <i class="icon fa fa-smile-o fa-fw " aria-hidden="true"></i>
+                                    </button>
+                                <button class="btn btn-link btn-icon icon-size-3 ml-1 mt-auto" aria-label="傳送訊息" data-action="send-message">
+                                    <span data-region="send-icon-container"><i class="icon fa fa-paper-plane fa-fw " aria-hidden="true"></i></span>
+                                    <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden p-2" data-region="content-messages-footer-edit-mode-container">
+                        
+                        <div class="d-flex p-3 justify-content-end">
+                            <button class="btn btn-link btn-icon my-1 icon-size-4" data-action="delete-selected-messages" data-toggle="tooltip" data-placement="top" title="刪除所選的訊息">
+                                <span data-region="icon-container"><i class="icon fa fa-trash fa-fw " aria-hidden="true"></i></span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                                <span class="sr-only">刪除所選的訊息</span>
+                            </button>
+                        </div>                    </div>
+                    <div class="hidden bg-secondary p-3" data-region="content-messages-footer-require-contact-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p data-region="title"></p>
+                            <p class="text-muted" data-region="text"></p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-add-contact">
+                                <span data-region="dialogue-button-text">發送聯絡請求</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-3" data-region="content-messages-footer-require-unblock-container">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">您已封鎖此用戶</p>
+                            <button type="button" class="btn btn-primary btn-block" data-action="request-unblock">
+                                <span data-region="dialogue-button-text">解除封鎖用戶</span>
+                                <span class="hidden" data-region="loading-icon-container"><span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="裝載中" aria-label="裝載中"></i></span>
+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hidden bg-secondary p-3" data-region="content-messages-footer-unable-to-message">
+                        
+                        <div class="p-3 bg-white">
+                            <p class="text-muted" data-region="text">您無法向此用戶發送訊息</p>
+                        </div>
+                    </div>
+                    <div class="p-2" data-region="placeholder-container">
+                        <div class="d-flex">
+                            <div class="bg-pulse-grey w-100" style="height: 80px"></div>
+                            <div class="mx-2 mb-2 align-self-end bg-pulse-grey" style="height: 20px; width: 20px"></div>
+                        </div>                    </div>
+                    <div class="hidden position-absolute" data-region="confirm-dialogue-container" style="top: -1px; bottom: 0; right: 0; left: 0; background: rgba(0,0,0,0.3);"></div>
+                </div>                    <div data-region="view-overview" class="text-center">
+                        <a href="https://moodle.ncku.edu.tw/message/index.php">
+                            查看全部
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+</div>
+
+        <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+            <nav class="list-group" aria-label="1101_H221100">
+                <ul>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">1101_H221100</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0110&amp;sem=1&amp;co_no=H221100&amp;class_code" data-key="coursesyllabus" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-shield fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">課程大綱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/user/index.php?id=17185" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-users fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">成員</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/grade/report/index.php?id=17185" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">成績單</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-0" data-key="322089" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">一般</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-1" data-key="322090" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 1</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-2" data-key="322091" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 2</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-3" data-key="322092" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 3</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-4" data-key="322093" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 4</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-5" data-key="322094" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 5</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-6" data-key="322095" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 6</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action active" href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-7" data-key="322096" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body font-weight-bold">主題 7</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-8" data-key="322097" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 8</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-9" data-key="322098" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 9</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-10" data-key="322099" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 10</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-11" data-key="356483" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 11</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-12" data-key="356484" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 12</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-13" data-key="356485" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 13</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-14" data-key="356486" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 14</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-15" data-key="356487" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 15</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-16" data-key="356488" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 16</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-17" data-key="356489" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 17</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/course/view.php?id=17185#section-18" data-key="356490" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="17185">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">主題 18</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        </ul>
+                        </nav>
+                        <nav class="list-group mt-1" aria-label="網站">
+                        <ul>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-home fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">首頁</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action " href="https://moodle.ncku.edu.tw/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="home">
+                                <div class="ml-0">
+                                    <div class="media">
+                                            <span class="media-left">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"></i>
+                                            </span>
+                                        <span class="media-body ">個人化首頁</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    
+    <footer id="page-footer" class="py-3 text-light">
+        <div class="container">
+    
+            <div id="course-footer"></div>
+    
+            <div class="row">
+    
+                    <div class="col-md-8">
+                        <div class="text_to_html"><p>國立成功大學 版權所有 | Copyright © National Cheng Kung University all rights reserved<br></p></div>Site:172.16.249.94
+    <!--
+                        <div class="logininfo">您以<a href="https://moodle.ncku.edu.tw/user/profile.php?id=146233" title="瀏覽個人資料"> 郭庭維</a>登入 (<a href="https://moodle.ncku.edu.tw/login/logout.php?sesskey=g3lYZePruJ">登出</a>)</div>
+    
+                        <div class="homelink"><a href="https://moodle.ncku.edu.tw/course/view.php?id=17185">1101_H221100</a></div>
+    
+    -->
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="brandbox">
+    			<!--
+                            <h3>國立成功大學計算機與網路中心</h3>
+    			-->
+    			<strong>國立成功大學計算機與網路中心</strong>
+                                <ul class="footercontact">
+                                    <li><i class="fa fa-globe"></i>  http://cc.ncku.edu.tw/</li>
+                                    <li><i class="fa fa-envelope"></i>  sfkuo@ncku.edu.tw</li>
+                                    <li><i class="fa fa-mobile-phone"></i>  (06)275-7575 #61056</li>
+                                </ul>
+    
+                            
+    
+                        </div>
+                    </div>
+    
+            </div>
+            <nav class="nav navbar-nav d-md-none">
+                    <ul class="list-unstyled pt-3">
+                                        <li><a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" title="語言">正體中文 ‎(zh_tw)‎</a></li>
+                                    <li>
+                                        <ul class="list-unstyled ml-3">
+                                                            <li><a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=zh_cn" title="简体中文 ‎(zh_cn)‎">简体中文 ‎(zh_cn)‎</a></li>
+                                                            <li><a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=ja" title="日本語 ‎(ja)‎">日本語 ‎(ja)‎</a></li>
+                                                            <li><a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=zh_tw" title="正體中文 ‎(zh_tw)‎">正體中文 ‎(zh_tw)‎</a></li>
+                                                            <li><a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                        </ul>
+                                    </li>
+                    </ul>
+            </nav>
+            
+            
+<!-- google -->
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58613150-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.ncku.edu.tw/lib/requirejs.php/1634308036/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.ncku.edu.tw/lib/javascript.php/1634308036/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://moodle.ncku.edu.tw/lib/javascript.php/1634308036/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.ncku.edu.tw/lib/javascript.php/1634308036/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(4).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.ncku.edu.tw/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('zh-CN', {
+  "Play": "播放",
+  "Pause": "暂停",
+  "Current Time": "当前时间",
+  "Duration": "时长",
+  "Remaining Time": "剩余时间",
+  "Stream Type": "媒体流类型",
+  "LIVE": "直播",
+  "Loaded": "加载完毕",
+  "Progress": "进度",
+  "Fullscreen": "全屏",
+  "Non-Fullscreen": "退出全屏",
+  "Mute": "静音",
+  "Unmute": "取消静音",
+  "Playback Rate": "播放速度",
+  "Subtitles": "字幕",
+  "subtitles off": "关闭字幕",
+  "Captions": "内嵌字幕",
+  "captions off": "关闭内嵌字幕",
+  "Chapters": "节目段落",
+  "Close Modal Dialog": "关闭弹窗",
+  "Descriptions": "描述",
+  "descriptions off": "关闭描述",
+  "Audio Track": "音轨",
+  "You aborted the media playback": "视频播放被终止",
+  "A network error caused the media download to fail part-way.": "网络错误导致视频下载中途失败。",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "视频因格式不支持或者服务器或网络的问题无法加载。",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "由于视频文件损坏或是该视频使用了你的浏览器不支持的功能，播放终止。",
+  "No compatible source was found for this media.": "无法找到此视频兼容的源。",
+  "The media is encrypted and we do not have the keys to decrypt it.": "视频已加密，无法解密。",
+  "Play Video": "播放视频",
+  "Close": "关闭",
+  "Modal Window": "弹窗",
+  "This is a modal window": "这是一个弹窗",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "可以按ESC按键或启用关闭按钮来关闭此弹窗。",
+  ", opens captions settings dialog": ", 开启标题设置弹窗",
+  ", opens subtitles settings dialog": ", 开启字幕设置弹窗",
+  ", opens descriptions settings dialog": ", 开启描述设置弹窗",
+  ", selected": ", 选择",
+  "captions settings": "字幕设定",
+  "Audio Player": "音频播放器",
+  "Video Player": "视频播放器",
+  "Replay": "重播",
+  "Progress Bar": "进度条",
+  "Volume Level": "音量",
+  "subtitles settings": "字幕设定",
+  "descriptions settings": "描述设定",
+  "Text": "文字",
+  "White": "白",
+  "Black": "黑",
+  "Red": "红",
+  "Green": "绿",
+  "Blue": "蓝",
+  "Yellow": "黄",
+  "Magenta": "紫红",
+  "Cyan": "青",
+  "Background": "背景",
+  "Window": "视窗",
+  "Transparent": "透明",
+  "Semi-Transparent": "半透明",
+  "Opaque": "不透明",
+  "Font Size": "字体尺寸",
+  "Text Edge Style": "字体边缘样式",
+  "None": "无",
+  "Raised": "浮雕",
+  "Depressed": "压低",
+  "Uniform": "均匀",
+  "Dropshadow": "下阴影",
+  "Font Family": "字体库",
+  "Proportional Sans-Serif": "比例无细体",
+  "Monospace Sans-Serif": "单间隔无细体",
+  "Proportional Serif": "比例细体",
+  "Monospace Serif": "单间隔细体",
+  "Casual": "舒适",
+  "Script": "手写体",
+  "Small Caps": "小型大写字体",
+  "Reset": "重置",
+  "restore all settings to the default values": "恢复全部设定至预设值",
+  "Done": "完成",
+  "Caption Settings Dialog": "字幕设定视窗",
+  "Beginning of dialog window. Escape will cancel and close the window.": "开始对话视窗。离开会取消及关闭视窗",
+  "End of dialog window.": "结束对话视窗",
+  "Seek to live, currently behind live": "试图直播，当前延时播放",
+  "Seek to live, currently playing live": "试图直播，当前实时播放",
+  "progress bar timing: currentTime={1} duration={2}": "{1}/{2}",
+  "{1} is loading.": "正在加载 {1}。"
+});
+
+    });
+});;
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://moodle.ncku.edu.tw/mod/resource/view.php?id=365516&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('https://moodle.ncku.edu.tw/mod/url/view.php?id=372054&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+
+require(['jquery'], function($) {
+    $('#single_select618a645128e104').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f618a645128e103').submit();
+        }
+    });
+});
+;
+M.util.js_pending('core/search-input'); require(['core/search-input'], function(amd) {amd.init("618a64517f420"); M.util.js_complete('core/search-input');});;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-618a645181240618a645128e106');
+    Popover.init(toggle);
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'core_message/message_drawer'], function($, MessageDrawer) {
+    var root = $('#message-drawer-618a64519b812618a645128e1017');
+    MessageDrawer.init(root, '618a64519b812618a645128e1017', false);
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select618a645128e1019').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f618a645128e1018').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['jquery','theme_boost/tooltip'], function($){$('[data-tooltip="tooltip"]').tooltip()});
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(868406, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(5).php"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(6).php"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(7).php"></script>
+<script type="text/javascript" src="./1101_H221100_ Homework # 4 (solutions)_files/javascript(8).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u6700\u5f8c\u4fee\u6539","name":"\u540d\u7a31","error":"\u932f\u8aa4","info":"\u8cc7\u8a0a","yes":"\u662f","no":"\u5426","cancel":"\u53d6\u6d88","confirm":"\u78ba\u8a8d","areyousure":"\u4f60\u78ba\u5b9a\u55ce\uff1f","closebuttontitle":"\u95dc\u9589","unknownerror":"\u672a\u77e5\u7684\u932f\u8aa4","file":"\u6a94\u6848","url":"\u7db2\u5740"},"repository":{"type":"\u985e\u578b","size":"\u5927\u5c0f","invalidjson":"\u7121\u6548\u7684JSON \u5b57\u4e32","nofilesattached":"\u6c92\u6709\u9644\u52a0\u6a94\u6848","filepicker":"\u6a94\u6848\u6311\u9078\u5668","logout":"\u767b\u51fa","nofilesavailable":"\u6c92\u6709\u53ef\u7528\u7684\u6a94\u6848","norepositoriesavailable":"\u62b1\u6b49\uff0c\u4f60\u73fe\u6709\u7684\u5009\u5132\u6c92\u6709\u4e00\u500b\u53ef\u4ee5\u56de\u5fa9\u6210\u8981\u6c42\u683c\u5f0f\u7684\u6a94\u6848\u3002","fileexistsdialogheader":"\u6a94\u6848\u5df2\u5b58\u5728","fileexistsdialog_editor":"\u6709\u4e00\u500b\u9019\u540d\u7a31\u7684\u6a94\u6848\u5df2\u7d93\u88ab\u9644\u52a0\u5230\u4f60\u6b63\u5728\u7de8\u8f2f\u7684\u6587\u5b57\u4e0a\u4e86","fileexistsdialog_filemanager":"\u6709\u4e00\u500b\u9019\u540d\u7a31\u7684\u6a94\u6848\u5df2\u7d93\u88ab\u9644\u52a0\u4e0a\u53bb\u4e86","renameto":"\u91cd\u65b0\u547d\u540d\u70ba{$a}","referencesexist":"\u9019\u88e1\u6709{$a}\u500b\u5225\u540d\/\u6377\u5f91\u6a94\u6848\u4f7f\u7528\u9019\u4e00\u500b\u6a94\u6848\u4f5c\u70ba\u4ed6\u5011\u8cc7\u6e90\u3002","select":"\u9078\u64c7"},"admin":{"confirmdeletecomments":"\u60a8\u5373\u5c07\u522a\u9664\u8a55\u8ad6\uff0c\u60a8\u78ba\u5b9a\u55ce\uff1f","confirmation":"\u78ba\u8a8d"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":"\uff1a"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() { M.util.js_pending('random618a645128e101'); Y.on('domready', function() { M.util.init_maximised_embed(Y, "resourceobject");  M.util.js_complete('random618a645128e101'); });
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"zh-hant"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random618a645128e1020'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random618a645128e1020'); });
+})();
+//]]>
+</script>
+
+    
+        </div>
+    
+    </footer>
+
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+<a href="https://moodle.ncku.edu.tw/mod/resource/view.php?id=377743#" id="back-to-top" class="btn btn-primary btn-lg" role="button" title="Back to Top and Scrollspy"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+
+
+<div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; background: transparent; top: -100000px; left: -100000px;"></div></body><div id="shopback-app" style="z-index: 2147483647 !important; display: block !important;"></div><umsdataelement id="UMSSendDataEventElement"></umsdataelement><div id="TAG_ID4TOOLBAR_UMS_GUID" style="display: none;">941EB15D-70C4-C2C1-E093-DC1AB78E3772</div><div id="tmtoolbar_ums_injected" style="display: none;">init_ums</div></html>

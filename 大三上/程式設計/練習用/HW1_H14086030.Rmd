@@ -1,0 +1,30 @@
+---
+title: "Homework 1"
+author: "Ting Wei Kuo (H14086030)"
+date: "`r format(Sys.time(), '%H:%M %d-%B, %Y')`"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r global_options, include=TRUE}
+knitr::opts_chunk$set(encoding="UTF-8")
+```
+
+## Problem 1
+
+```{r}
+name<-readline("Please input your name: ")
+age<-readline("Please input your age: ")
+cat("Your name is:",name,"\n")
+cat("Your age is:",age)
+```
+
+
+## Problem 2
+
+```{r}
+cat("R version: 4.1.1\n")
+cat("nickname: Kick Things  ")
+```
+

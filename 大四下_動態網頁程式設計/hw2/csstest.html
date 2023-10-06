@@ -1,0 +1,220 @@
+<!--
+H14086030 郭庭維 第2次作業 4/13
+H14086030 TingWeiKuo The Second Homework 4/13
+This template is only for development only
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>網站地圖</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="banner.css">
+        <style>
+            p.font-family {
+            font-family: "Times New Roman", Arial, sans-serif;
+            }
+            #linear_gradient_1 {
+                height: 60px;
+                width: 60%;
+                background-color: red; /* For browsers that do not support gradients */
+                background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            }
+            #radial_gradient_1 {
+                height: 180px;
+                width: 60%;
+                background-color: red; /* For browsers that do not support gradients */
+                background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+                
+            }
+            .text-stroke{
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+                -webkit-text-stroke: 1px red;
+            }
+            .image-transition{
+                height: 100px;
+                transition: transform 3s;
+
+            }
+            .image-transition:hover{
+                transform:rotate(360deg) ;
+                transition: transform 3s;
+            }
+            .image-reflection{
+                -webkit-box-reflect: below 5px
+               -webkit-gradient(
+                  linear, left top, left bottom, 
+                  from(transparent), to(white));
+                
+            }
+            #animation-demo{
+                height: 180px;
+                width: 60%;
+                background-color: black;
+                -webkit-animation: moving-rainbow linear 1s 0s infinite normal;
+            }
+            @-webkit-keyframes moving-rainbow {
+                0% {background-image: linear-gradient(to right,  red, orange, yellow, green, blue, indigo, violet);}
+                14% {background-image: linear-gradient(to right, orange, yellow, green, blue, indigo, violet, red);}
+                28% {background-image: linear-gradient(to right, yellow, green, blue, indigo, violet, red, orange);}
+                42% {background-image: linear-gradient(to right, green, blue, indigo, violet, red, orange, yellow);}
+                57% {background-image: linear-gradient(to right, blue, indigo, violet, red, orange, yellow, green);}
+                71% {background-image: linear-gradient(to right, indigo, violet, red, orange, yellow, green, blue);}
+                85% {background-image: linear-gradient(to right, violet, red, orange, yellow, green, blue, indigo);}
+                100% {background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);}
+            }
+            #do-not-press-the-btn{
+                width: 50px;
+                height: 50px;
+                background-color: red;
+                border: 1px solid black;
+                -webkit-animation: dont-click ease-in-out 15s 0.5s infinite normal;
+                position: fixed;
+                top: 10%;
+                left: 10%;
+                text-align: center;
+                z-index: 2;
+                border-radius: 8px;
+            }
+            @-webkit-keyframes dont-click{
+                0% {top: 10%; left: 10%;}
+                25% {top: 10%; left: 90%;}
+                50% {top: 90%; left: 90%;}
+                75% {top: 90%; left: 10%;}
+                100% {top: 10%; left: 10%;}
+                
+            }
+            @media print
+            {
+                .main_block a{
+                    /* 這樣選單印出來才不會看不清楚 */
+                    background-color: white;
+                    color:black;
+                }
+            }
+        </style>
+         <link href = 'http://fonts.googleapis.com/css?family=Tangerine' rel = 'stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        <div id="do-not-press-the-btn">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="height: 100%;width: 100%;color: white;">不要按！</a>
+            <!-- 老師說要放一塊飛來飛去的東西啦QQ他說越煩越好XD -->
+        </div>
+        <div class="content">
+            <a href="home.html" target="_parent" style="width: 628px;height:79px">
+                <img src="banner.png" alt="logo">
+            </a>
+            <nav class="sub_nav" > <!--網站圖片左側的小小導覽列-->
+                <table>
+                    <td ><a href="home.html" target="_parent">首頁</a></td>
+                    <td ><a href="http://web.ncku.edu.tw/" target="_top">成大首頁</a> </td>
+                    <td ><a href="sitemap.html"target="_parent">網站地圖</a></td>
+                    <td ><a href="home_eng.html"target="_parent">English</a></td>
+                </table>
+            </nav>
+            <hr>
+            <nav> <!--網站橫幅的主要導覽列-->
+                <ul>
+                    <li class="main_block">
+                        <a href="home.html" target="_parent">
+                            最新消息
+                        </a>
+                    </li>
+                    <li class="main_block">
+                        <a href="about/intro_1.html" target="_parent">
+                            關於系所</a>
+                        <ul class="sub_ul">
+                            <li><a href="about/intro_1.html">大學部</a></li>
+                            <li><a href="about/intro_2.html">會研所一般組</a></li>
+                            <li><a href="about/intro_3.html">會研所資訊組</a></li>
+                            <li><a href="about/intro_4.html">財金所</a></li>
+                            <li><a href="about/主任的話.html">系主任的話</a></li>
+                            <li><a href="about/教學宗旨.html">教學宗旨</a></li>
+                            <li><a href="about/AACSB.html">AACSB</a></li>
+                            <li><a href="about/double_degree.html">國際雙聯學位與交換學生</a></li>
+                            <li><a href="about/graduate.html">畢業出路</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="main_block">
+                        <a href="teacher.html" target="_parent">系所成員</a>
+                        <ul class="sub_ul">
+                            <li><a href="teacher.html">專任教授</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_block">
+                        <a href="course/bachelor.html">課程規劃</a>
+                        <ul class="sub_ul">
+                            <li><a href="course/bachelor.html">大學部簡介</a></li>
+                            <li><a href="course/bachelor_day.html">大學部日間部</a></li>
+                            <li><a href="course/double_major.html">雙主修與輔系</a></li>
+                            <li><a href="course/master.html">研究所簡介</a></li>
+                            <li><a href="course/master_acc.html">會計所甲組</a></li>
+                            <li><a href="course/master_acc b.html">會計所乙組</a></li>
+                        </ul>
+                    </li>
+                    <li class="main_block">
+                        <a href="links/student_link.html" target="_parent">常用連結</a>
+                        <ul class="sub_ul">
+                            <li><a href="links/student_link.html">學生常用</a></li>
+                            <li><a href="links/teacher_link.html">老師常用</a></li>
+                            <li><a href="links/office_link.html">系辦人員常用</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="main_block"><a href="https://alumni.acc.ncku.edu.tw/" target="_parent" class="main_block">系友網</a></li>
+                </ul>
+            </nav>
+            <h1 class="first_element">CSS測試頁面</h1>
+            <hr>
+            <p>本頁面僅用來展示CSS功能用以滿足老師「需使用所有CSS」的要求，不作其他用途</p>
+            <h2>關於字體</h2>
+            <p class="font-family">The words show in Times New Roman font.</p>
+            <p><span style="text-decoration: line-through;">This show how the text-decoration works</span> which use with line-through property.</p>
+            <p style="font-weight: bolder;">font-weight</p>
+            <p style="text-shadow: 4px 4px 2px gray;">陳雷的50道字體陰影</p>
+            <p class="text-stroke">TEXT STROKE</p>
+            <p>download font from web</p>
+            <p style="font-family: Tangerine;font-size: 40px;">This is the font "Tangerine" download from web</p>
+            <h2>關於排版</h2>
+            <h3>text-indent</h3>
+            <p style="text-indent: 20px;">text-indent是一個CSS屬性，它用於定義文本塊中第一行文本的縮進量。通過使用text-indent屬性，可以讓你的文本在段落的開頭進行縮排，這樣可以更好的區分每段文字的開始。就像現在這樣！</p>
+            <h3>Multicolumn layout</h3>
+            <div style="column-count: 3;border:1px dashed black;">
+                <p>多欄佈局（Multicolumn layout）是一種CSS佈局方式，可以讓內容分成多列，並在列之間平均分配空間。這種佈局方式可以使得網頁內容更好地利用空間，提高可讀性和視覺效果。使用多欄佈局需要使用CSS中的column-count和column-width屬性來設置欄數和欄寬。<p>
+            </div>
+            <h3>overflow</h3>
+            <p style="height: 80px;width: 200px;overflow: scroll;">overflow屬性是CSS中一個非常有用的屬性，它用來控制一個元素的溢出內容的顯示方式。當一個元素的內容超出了其指定的尺寸時，overflow屬性就會生效。例如這個是scroll mode</p>
+            <p style="height: 83px;width: 200px;overflow: hidden;">設定為hidden時，表示溢出的內容會被隱藏，不會顯示出來。<b>像我最討厭兩種人，一種是話說一半的人，另一種是話說</b></p><!-- 我就沒講完啦，看原始碼也沒有 -->
+            <p style="height: 50px;width: 200px;overflow: visible;border: 2px dashed black;">visible下打太多的字會溢出的內容會顯示在元素框的外部</p>
+            <h2>Linear Gradient and the animation</h2>
+            <p>by using the linear gradient we can creat the image like:</p>
+            <div id="linear_gradient_1"></div>
+            <p>by using the `radial gradient we can creat the image like:</p>
+            <div id="radial_gradient_1"></div>
+            <p>by using the linear gradient and the animation we can creat the an animation like:</p>
+            <div id="animation-demo"></div>
+            <h2>關於圖片</h2>
+            <p>Image reflection</p>
+            <img src="banner.png" alt="Banner png" class="image-reflection">
+            <div style="height: 80px;"></div>
+            <p>Image border</p>
+                
+                <img src="banner.png" alt="Banner png" style="border: 30px solid transparent;padding: 15px; -webkit-border-image: url(border.png) 30 repeat;">
+            </p>
+            <p>Image skew</p>
+                <img src="logo.png" style="transform: skewX(-45deg);padding: 3%;">
+            <p>Image transition and transform</p>
+                <img src="logo.png" class="image-transition">
+            
+        </div>
+        
+        <div class="bottom">
+            <hr>
+            <iframe src="bottom.html" width="100%" height="100%" style="border:none;max-height: 190px;" ></iframe>
+        </div>
+    </body>
+
+</html>

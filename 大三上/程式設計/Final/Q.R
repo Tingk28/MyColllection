@@ -1,0 +1,6 @@
+pokemon<-read.csv("pokemon.csv")
+isleg<-subset(x=pokemon,subset = Legendary==TRUE)
+notleg<-subset(x=pokemon,subset = Legendary==FALSE)
+t.test(isleg$HP,notleg$HP)
+mean(isleg$HP)
+mean(notleg$HP)

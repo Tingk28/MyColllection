@@ -1,0 +1,30 @@
+---
+title: "in class"
+author: "H14086030"
+date: "`r format(Sys.time(), '%H:%M %m/%d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 1
+
+```{r}
+x<-1:10
+ifelse(x%%2==0,"even","odd")
+```
+
+
+## Question 2
+
+```{r}
+N<-10
+geometric_seq<-rep(NA,N)
+for(i in 1:N){
+  geometric_seq[i]=2^(i-1)
+}
+geometric_seq
+```
+

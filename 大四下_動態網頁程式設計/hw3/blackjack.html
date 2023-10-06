@@ -1,0 +1,308 @@
+<!-- H14086030 郭庭維 第3次作業 4/26
+H14086030 TingWeiKuo TheThird Homework 4/26 -->
+
+<html>
+    <head>
+        <link href = 'http://fonts.googleapis.com/css?family=Open+Sans' rel = 'stylesheet' type='text/css'>
+        <meta charset="UTF-8">
+        <style>
+            #UI1 img{
+                height: 100%;
+                position: relative;
+            }
+            #UI1 p{
+                height: 100%;
+                font-size: 3em;
+                font-family:'Open Sans';
+                font-weight: bold;
+                margin: 0px 5px;
+                position: relative;
+                bottom: 19%;
+                display: inline-block;
+                color: white;
+            }
+            
+            body{/*背景圖片*/
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(background.png);
+                background-repeat: repeat;
+            }
+            #start{/*開始按鈕*/
+                position: absolute;
+                font-size: 32px;
+                height: 10%;
+                width: 16%;
+                top:45%;
+                left: 42%;
+            }
+            #dealer_block, #player_block{/*莊家/閒家整體UI區域*/
+                height: 43%;
+                display: none;
+                /* background-color: orange; */
+                position: relative;
+            }
+            #dealer_card_block, #player_card_block{/*卡牌顯示區域*/
+                height: 76%;
+                width: 90%;
+                position: relative;
+                top: 12%;
+                /* background-color: lightsalmon; */
+                display: inline-block;
+            }
+            .card{/*卡牌大小設定*/
+                height:100%;
+                display: inline-block;
+                border: 1px solid black;
+                border-radius: 4%;
+                opacity: 100%;
+                /* animation-name: flip;
+                animation-duration: 2s;
+                animation-delay: 0s;
+                animation-timing-function: linear;
+                animation-fill-mode: forwards; */
+            }
+            .card_back{
+                background-image: url("card_img/card_back.png");
+                height:100%;
+                display: inline-block;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 4%;
+                margin-left: 2%;
+            }
+            #dealer_points, #player_points,#player_points2{
+                font-size: 1.2em;
+                font-family: 'Open Sans';
+                text-align: center;
+                display: inline-block;
+                position: absolute;
+                right: 3%;
+                top: 40%;
+                margin: 0;
+                color: white;
+            }
+            #player_ui{
+                position: relative;
+                height: 76%;
+                top: 12%;
+                width: 9%;
+                display: inline-block;
+
+            }
+            #player_ui table{
+                position: relative;
+                top: 20%;
+                height: 80%;
+                text-align: center;
+                margin: auto;
+            }
+            #player_ui table button{
+                width: 100%;
+                height: 90%;
+                font-size: 1.1em;
+            }
+            #place_bet_ui{
+                width: 99%;
+                height: 99%;
+                background-color: rgba(0, 0, 0, 0.6);
+                position: absolute;
+                display: none;
+                z-index: 3;
+            }
+            #place_bet_ui p{
+                position: relative;
+                top: 30%;
+                color: white;
+                font-size: 2em;
+                text-align: center
+            }
+            #place_bet_ui input{
+                position: relative;
+                top: 30%;
+                width: 30%;
+                height: 5%;
+                margin: auto;
+                font-size: 2em;
+                text-align: center;
+                display:block
+            }
+            #place_bet_ui button{
+                display:block;
+                position: relative;
+                top: 35%;
+                width: 15%;
+                height: 5%;
+                margin: auto;
+                margin-top: 2%;
+                font-size: 2em;
+                text-align: center;
+            }
+            #place_bet_ui table{
+                width: 80%;
+                border: 1px solid white;
+                color: white;
+                position: relative;
+                top: 20%;
+                text-align: left;
+                margin: auto;
+                border-collapse: collapse;
+                display: none;
+            }
+            #place_bet_ui table tbody tr{
+                border: 1px solid white;
+            }
+            #place_bet_ui table tbody tr td{
+                width: auto;
+            }
+            #money_on_table{
+                position: absolute;
+                height: 7%;
+                width: 12%;
+                top: 47%;
+                left: 45%;
+                margin: 0;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(background.png);
+                background-repeat: repeat;
+                display: none;
+            }
+            #money_on_table p{
+                color: white;
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+                font-family:'Open Sans';
+                position: absolute;
+                z-index: 2;
+                top: 60%;
+                left: 40%;
+                transform: translate(0,-50%);
+                margin: 0;
+                width: 60%;
+                height: 100%;
+                display: inline-block;
+            }
+            #dealer_bust, #player_bust{ /* 當玩家或莊家爆牌 */
+                width: 80%;
+                height: 100%;
+                position: absolute;
+                z-index: 1;
+                background-color: rgba(0, 0, 0, 0.5);
+                display: none;
+            }
+            .text_center{
+                color: white;
+                text-align: center;
+                font-size: 2em;
+                margin: 0;
+                position: relative;
+                top: 50%;
+                transform: translate(0,-50%);
+            }
+            #split_section{
+                height: 30%;
+                width: 80%;
+                background-color: orange;
+                position: absolute;
+                z-index: 10;
+                top: 70%;
+                right: 10%;
+            }
+            /* @keyframes flip {
+                0% {
+                    opacity: 0%;
+                }
+                50%{
+                    transform: rotateY('180deg');
+                }
+                100% {
+                    opacity: 100%;
+                    transform: rotateY('180deg');
+                }
+
+            } */
+        </style>
+
+    </head>
+    <body style="min-width: 765px;min-height: 500px;">
+        <embed src="/html/Kalimba.mp3" loop="true" autostart="true" width="2" height="0">
+        <div id="place_bet_ui">
+            <p>請輸入下注金額</p>
+            <input type="number" id="bet" value="10">
+            <button type="button" id="bet_btn">確定</button>
+        </div>
+        <div id="UI1" style="height: 7%; display: none;">
+            <img src="token.png" alt="Money" id="cheat">
+            <p id = "money">100</p>
+            <img src="remaining.svg" alt="Money" style="fill:white">
+            <p id = "remaining_card">208</p>
+        </div>
+        <div id="dealer_block">
+            <div id ="dealer_bust">
+                <p class="text_center">爆牌</p>
+            </div>
+            <div id = "dealer_card_block">
+            </div>
+            <p id = "dealer_points">莊家：Points = 0</p>
+        </div>
+        <hr id="line" style="border: 2px solid white;display: none;">
+        <button id="start">開始遊戲</button>
+        <div id= "money_on_table">
+            <img src="token.png" alt="Money:" style="display: inline-block;width: 40%;margin-left: 10%;position: absolute;z-index: 2;">
+            <p>0</p>
+        </div> 
+        <div id="player_block">
+            <div id ="player_bust">
+                <p class="text_center">爆牌</p>
+            </div>
+            <div id = "player_card_block">
+            </div>
+            <div id="player_ui">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p id = "player_points" style="position: initial;">玩家：<br>Points = 0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="hit">hit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="stand">stand</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="double">double</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="split">split</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="surrender">surrender</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id = "player_points2" style="position: initial;"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- <div id="split_section">
+
+            </div> -->
+        </div>
+        <audio id="bgm" controls autoplay="true" style="display: none;">
+            <source src="bgm.mp3" type="audio/mpeg">
+        </audio>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
