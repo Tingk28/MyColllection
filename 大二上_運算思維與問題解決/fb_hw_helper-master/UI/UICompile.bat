@@ -1,0 +1,1 @@
+C:\Users\user\anaconda3\envs\pytorch\Scripts\pyuic5 %~nx1 -o ./%~n1.py
