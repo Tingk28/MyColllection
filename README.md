@@ -67,23 +67,23 @@ Final Project整體程式架構圖<br>
 了解Matlab語言，並了解線性代數在影像處理上的運用，例如衛星影像改正、PCA截取圖片特徵等等<br>
 
 利用最小平方估計減少衛星影像中的雜訊，左上與中下分別是同一地點兩天的拍攝，透過處理後可以提升清晰度。結果如右上<br>
-<img src="imgs/LA_hw3.PNG" alt="衛星影像改正" style = "width:40%;min-width:400px"/><br>
+<img src="imgs/LA_hw3.PNG" alt="衛星影像改正" style = "width:80%;min-width:400px"/><br>
 使用PCA截取特徵向量壓縮影像大小，將左上的原圖轉換成五個band分別從中上、右上、下左....下右，可以看到每張圖所提供的資訊量越來越少<br>
-<img src="imgs/LA_hw4.PNG" alt="PCA截取圖片特徵" style = "width:40%;min-width:400px"/><br>
+<img src="imgs/LA_hw4.PNG" alt="PCA截取圖片特徵" style = "width:80%;min-width:400px"/><br>
 
 ## 大三下_機器學習()
 利用將上學期學到的R語言，熟悉各種機器學習方法，以及feature selection, validation 等觀念。並在final project中預測煉鋼焦爐氣的液位，使用local model的觀念在長短期(5分鐘與10分鐘)預測的MAPE約1.6-4%，優於原始數據作者的2.2-5.2%，最後成為全班最高分的組別。<br>
 [final project results](大三下_機器學習\final%20project\10(B)_機器學習專題報告.pdf)<br>
 我們參考莊雅筑等人的論文[1]所提出的Local model來實作<Br>
-<img src="imgs/ML.png" alt="Local model示意圖" style = "width:40%;min-width:400px"/><br>
+<img src="imgs/ML.png" alt="Local model示意圖" style = "width:80%;min-width:400px"/><br>
 最後我們發現若取最相似的500個時間片段，並取前十分鐘的資料下，並且使用linaer regression + forward selection所得的效果最好，在5分鐘與10分鐘的預測優於原始論文。在30分鐘的超長時間預測亦落在可接受的12-15%<br>
-<img src="imgs/ML_result.png" alt="results" style = "width:40%;min-width:400px"/><br>
+<img src="imgs/ML_result.png" alt="results" style = "width:80%;min-width:400px"/><br>
 [1] 莊雅筑, et al. "可解釋的 AI 系統-以焦爐氣儲槽液位預測為例." 電工通訊季刊 (2018): 69-80.
 
 ## 大四上
 ### 計算機組織
 了解Verilog的撰寫，以及如何設計序向與組合電路，與組員合作完成RISC-V的single cycle CPU<br>
-<img src="imgs/riscv.png" alt="riscv" style = "width:40%;min-width:600px"/><br>
+<img src="imgs/riscv.png" alt="riscv" style = "width:100%;min-width:600px"/><br>
 
 ### 視窗程式設計
 熟悉C#程式語言，並對於Unity引擎與遊戲設計有初步認識，Final project搭建離線題庫系統
