@@ -3,18 +3,18 @@
 
 - [MyColllection](#mycolllection)
 - [Overview](#overview)
-  - [大一上\_計算機概論（一）](#大一上_計算機概論一)
-  - [大一下\_計算機概論（二）](#大一下_計算機概論二)
-  - [大二上\_運算思維與問題解決](#大二上_運算思維與問題解決)
-  - [大二下\_資料結構緒論](#大二下_資料結構緒論)
-  - [大三上](#大三上)
-    - [程式設計](#程式設計)
-    - [線性代數](#線性代數)
-  - [大三下\_機器學習()](#大三下_機器學習)
-  - [大四上](#大四上)
-    - [計算機組織](#計算機組織)
-    - [視窗程式設計](#視窗程式設計)
-  - [大四下\_動態網頁程式設計](#大四下_動態網頁程式設計)
+	- [大一上\_計算機概論（一）](#大一上_計算機概論一)
+	- [大一下\_計算機概論（二）](#大一下_計算機概論二)
+	- [大二上\_運算思維與問題解決](#大二上_運算思維與問題解決)
+	- [大二下\_資料結構緒論](#大二下_資料結構緒論)
+	- [大三上](#大三上)
+		- [程式設計](#程式設計)
+		- [線性代數](#線性代數)
+	- [大三下\_機器學習()](#大三下_機器學習)
+	- [大四上](#大四上)
+		- [計算機組織](#計算機組織)
+		- [視窗程式設計](#視窗程式設計)
+	- [大四下\_動態網頁程式設計](#大四下_動態網頁程式設計)
 
 
 
@@ -97,8 +97,41 @@ Final Project整體程式架構圖<br>
   - 作業二：系網複製二：熟悉CSS並且對作業一進行改良
   - 作業三：做出桌遊「21點」，熟悉JavaScript語法
   - 作業四：做出桌遊「21點」-2 ，使用localStorage實現遊戲存擋、讀取遊戲紀錄的功能
-- Final Project：線上題庫系統
+
+  課程中完成的21點遊戲<br>
+  <img src="imgs/dwp_blackjack.png" alt="21點遊戲" style = "width:80%;min-width:400px"/><br>
+
+- Final Project([doc](大四下_動態網頁程式設計\final\書面報告.pdf))：線上題庫系統
   - 視窗程式設計中做出的題庫系統為離線版，且只能於windown系統下使用
   - 希望可以使用所學的網頁技術來完成刷題系統
   - 學習如何使用GCP架設網站
-  - 系統在考前有將近一半的同學使用，並且得到8.6/10的使用滿意度，累積達數千次的答題紀錄。4
+  - 支援指定複習範圍、翻譯、加強錯誤的題目等功能
+  - 系統在考前有將近一半的同學使用，並且**得到8.6/10的使用滿意度**，累積達數千次的答題紀錄。
+
+
+程式流程圖<br>
+<img src="imgs\dwp_final_process.PNG" alt="程式流程圖" style = "width:80%;min-width:600px"/><br>
+
+題庫系統介面<br>
+<table style="width: 80%; border-collapse: collapse; ">
+	<tr>
+		<td style="padding: 0px;">
+			主畫面<br>
+			<img src="imgs\dwp_final_ui1.png" alt="Image 1" style="width: 80%; height: auto;">
+		</td>
+		<td style="padding: 0px;">
+			檢視作答紀錄，並且彙整錯誤題目複習<br>
+			<img src="imgs\dwp_final_ui2.png" alt="Image 2" style="width: 80%; height: auto;">
+		</td>
+	</tr>
+	<tr>
+		<td style="padding: 0px;">
+			作答頁面<br>
+			<img src="imgs\dwp_final_ui3.png" alt="Image 3" style="width: 80%; height: auto;">
+		</td>
+		<td style="padding: 0px;">
+			可以自行選擇想複習的章節<br>
+			<img src="imgs\dwp_final_ui4.png" alt="Image 4" style="width: 80%; height: auto;">
+		</td>
+	</tr>
+</table>
